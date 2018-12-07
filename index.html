@@ -1,49 +1,141 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+  <title>HTML5</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/white.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+</head>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-background="/img/HTML5_sticker.png"></section>
+      <section><img src="/img/html-css-js-logo.png" alt="html css js"></section>
+      <section><img src="/img/W3C.jpg" alt="W3C"></section>
+      <section>
+        <pre><code class="hljs" data-trim contenteditable>
+            &lt;html&gt;
+              &lt;body&gt;
+                &lt;p&gt;Hello World!&lt;p&gt;
+              &lt;/body&gt;
+            &lt;/html&gt;
+        </code></pre>
+      </section>
+      <section><img src="/img/w3c whatwg.jpg" alt="w3c whatwg"></section>
+      <section>
+        <h3>HTML Statistics</h3>
+        <img src="/img/html-versions.png" alt="html graph">
+        <p>This is based on a sample size of over 10 million pages on 1 million web sites.</p>
+        <a href="www.powermapper.com">www.powermapper.com</a>
+      </section>
+      <section>
+        <section>
+          <h3>HTML vs HTML5: What’s New?</h3>
+          <ul>
+            <li class="fragment">Deprecated elements like center, font, and strike have been dropped</li>
+            <li class="fragment">Improved parsing rules allow for more flexible parsing and compatibility</li>
+            <li class="fragment">New elements including video, time, nav, section, progress, meter, aside and canvas</li>
+            <li class="fragment">New input attributes including email, URL, dates and times</li>
+            <li class="fragment">New attributes including charset, async and ping</li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li class="fragment">New APIs that offer offline caching, drag-and-drop support and more</li>
+            <li class="fragment">Support for vector graphics without the aid of programs like Silverlight or Flash</li>
+            <li class="fragment">Support for MathML to allow better display of mathematical notations</li>
+            <li class="fragment">JavaScript can now run in the background thanks to the JS Web worker API</li>
+            <li class="fragment">Global attributes such as tabindex, repeat and id can be applied for all elements</li>
+          </ul>
+        </section>
+      </section>
+      <section><img src="/img/HTML5-Features.jpg" alt="html features"></section>
+      <section>
+        <ul>
+          <li class="fragment">Some data can be stored on the user’s device, which means apps can continue working
+            properly without an Internet connection.</li>
+          <li class="fragment">Web pages can display more fonts with a wider array of colors, shadows, and other
+            effects.</li>
+          <li class="fragment">Objects on the page can move in response to the user’s cursor movements.</li>
+          <li class="fragment">Interactive media, such as games, can run in web browsers without the need for extra
+            software or plugins. Audio and video playback also no longer require additional plugins.</li>
+          <li class="fragment">Browsers can display interactive 3D graphics using the computer’s own graphics
+            processor.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>What Are the Advantages of HTML5 for Web Developers?</h3>
+        <ol>
+          <li class="fragment">Consistent Error Handling</li>
+          <li class="fragment">Support for More Web Application Features</li>
+          <li class="fragment">Enhanced Element Semantics</li>
+          <li class="fragment">Maximized Mobile Support</li>
+        </ol>
+      </section>
+      <section>
+        <h3>Other Notable Improvements</h3>
+        <ol>
+          <li class="fragment">Support for Custom Data Attributes</li>
+          <li class="fragment">No More Cookies Thanks to Local Storage</li>
+          <li class="fragment">Form Field Autofocus</li>
+          <li class="fragment">Script and Link Tags No Longer Require Type Attribute</li>
+        </ol>
+      </section>
+      <section>
+          <h3>New Features in HTML 5.2</h3>
+          <ol>
+            <li class="fragment">&lt;dialog&gt; element</li>
+            <li class="fragment">Valid style in &lt;body&gt;</li>
+            <li class="fragment">Multiple &lt;main&gt; elements</li>
+            <li class="fragment">Adding child elements to &lt;legend&gt;</li>
+            <li class="fragment">Removed items from the specification</li>
+            <li class="fragment">No more &lt;menu&gt; element</li>
+            <li class="fragment">Strict Doctypes "say good bye"</li>
+            <li class="fragment">Child property modification for the &lt;p&gt; element</li>
+          </ol>
+      </section>
+      <section>
+        <h3>The Future of HTML5</h3>
+        <h3 class="fragment">...</h3>
+        <h3 class="fragment">HTML6</h3>
+        <h3 class="fragment">see you soon</h3>
+      </section>
+    </div>
+  </div>
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+
+  <script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+      dependencies: [
+        { src: 'plugin/markdown/marked.js' },
+        { src: 'plugin/markdown/markdown.js' },
+        { src: 'plugin/notes/notes.js', async: true },
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+      ]
+    });
+  </script>
+</body>
+
 </html>
